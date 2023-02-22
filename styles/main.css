@@ -1,0 +1,17 @@
+@import "header.css";
+@import "variables.css";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
+.app{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+  font-family: 'Work Sans','Yellowtail', sans-serif;
+}

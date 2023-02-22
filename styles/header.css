@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    width: 1440px;
+    height: 1025px;    
+    justify-content: center;
+}
+
+.navbar{
+    width: 1380px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.navbar__menu{
+    max-width: 600px;
+    display: flex;
+    align-items: center;    
+}
+.navbar__item{
+    font-family: 'Roboto';
+    font-size: 20px;
+    padding: 0 20px;
+    color: var(--color-blue);
+}
+
+.navbar__item-color{
+    color: var(--color-green);
+}
+.basket{
+    display: flex;
+    align-items: center;
+}
+.basket__text{
+    font-size: 17px;
+    color: var(--color-blue);
+}
