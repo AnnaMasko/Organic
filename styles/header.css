@@ -1,8 +1,13 @@
+.section__header{
+    display: flex;
+    justify-content: center;
+}
 .header{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 1440px;
-    height: 1025px;    
-    justify-content: center;
+    height: 1025px;
 }
 
 .navbar{
@@ -10,7 +15,7 @@
     height: 72px;
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
+    margin: 40px 0;
 }
 .navbar__menu{
     max-width: 600px;
@@ -34,4 +39,50 @@
 .basket__text{
     font-size: 17px;
     color: var(--color-blue);
+}
+
+.header__content{
+    width: 1440px;
+    height: 913px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    outline: 1px solid green;
+    background-image: url(../images/back_image.png);
+    
+}
+.header__contentContainer{
+    height: 443px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+    margin-left: 30px;
+}
+.header__contentText{
+    font-family: 'Yellowtail', cursive;
+    font-size: 36px;
+    color: var(--color-green);
+    font-weight: 400;
+}
+.header__contentTitle{
+    width: 500px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    color: var(--color-blue);
+}
+.button__size
+{
+    display: flex;
+    width: 219px;
+    height: 82px;
+    background-color: var(--color-yellow);
+    align-items: center;
+    justify-content: center;
+}
+.button{
+  color: var(--color-blue);
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
 }
