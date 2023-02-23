@@ -1,7 +1,10 @@
 # Organic
-
+## Description
 Organic food project
 
-Website using css. Layout uses flex-blocks. 
+-Website using css.
 
-Implemented header block with navigation menu and content part.
+-Layout uses flex-blocks. 
+
+-Implemented header block with navigation menu and content part.
+
