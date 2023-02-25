@@ -1,0 +1,69 @@
+.section__aboutUs{
+    display: flex;
+    outline: 1px solid red;
+    justify-content: center;
+}
+
+.containerAbout{   
+    margin-top: 140px; 
+    width: 1380px;
+    height: 736px;
+    outline: 1px solid blue;
+    display: flex;
+    justify-content: space-between;   
+}
+
+.containerAbout__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.title{
+    font-family: var(--font-yellowtail);
+    font-size: 36px;
+    font-weight: 400;
+    color: var(--color-green);
+}
+.text{
+    width: 529px;
+    font-family: var( --font-roboto);
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--color-blue);
+}
+.containerAbout__contentDeskription{
+    width: 670px;
+    font-family: var( --font-worksans);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-gray);
+
+}
+.organicFood{
+    width: 675px;
+    display: flex;
+    justify-content: space-between;
+}
+.containerAbout__contentCategoriTitle{
+    font-family: var( --font-roboto);
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--color-blue);
+}
+
+.containerAbout__contentCategoriText{
+    width: 539px;
+    font-family: var( --font-worksans);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-gray);
+}
+
+.button__size-color{
+    width: 199px;
+    background-color: var(--color-blue);
+}
+.button-color{
+    color: white;
+}

@@ -3,7 +3,8 @@
     --color-gray: #525C60;    
     --color-green:#7EB693; 
     --color-yellow: #EFD372;
-    
-    --font-family-worksana: "font-family: 'Work Sans', sans-serif";
-    
+      
+    --font-roboto: 'Roboto';
+    --font-yellowtail: 'Yellowtail';
+    --font-worksans: 'Work Sans';
     }

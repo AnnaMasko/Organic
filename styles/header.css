@@ -47,7 +47,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    outline: 1px solid green;
     background-image: url(../images/back_image.png);
     
 }
@@ -77,6 +76,7 @@
     display: flex;
     width: 219px;
     height: 82px;
+    border-radius: 5px;
     background-color: var(--color-yellow);
     align-items: center;
     justify-content: center;
@@ -85,4 +85,5 @@
   color: var(--color-blue);
   font-family: 'Roboto', sans-serif;
   font-size: 19px;
+  font-weight: 400;
 }
