@@ -25,6 +25,9 @@
     width: 1400px;
     height: 1219px;
     outline: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .card{
