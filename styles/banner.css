@@ -1,0 +1,65 @@
+.section__banner{
+    display: flex;
+    justify-content: center;
+}
+.banner{   
+    margin-top: 136px; 
+    width: 1380px;
+    height: 378px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.fruits{
+    width: 665px;
+    background-image: url(../images/fruits.png);
+    background-repeat: no-repeat;
+    outline: 1px solid green;
+
+}
+.fruits__subscribe{
+   margin-top: 105px;
+   margin-left: 55px; 
+}
+
+.fruits__subscribeText{
+    font-family: var(--font-yellowtail);
+    font-size: 36px;
+    font-weight: 400;
+    color: white;
+}
+.fruits__subscribeTitle{
+    max-width: 219px;
+    font-family: var(--font-roboto);
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    
+}
+
+.vegetables{
+    width: 665px;
+    background-image: url(../images/vegetables.png);
+    background-repeat: no-repeat;
+    outline: 1px solid yellow;
+}
+
+.vegetables__subscribe{
+    margin-top: 105px;
+    margin-left: 55px; 
+ }
+ 
+ .vegetables__subscribeText{
+     font-family: var(--font-yellowtail);
+     font-size: 36px;
+     font-weight: 400;
+     color: var(--color-green);
+ }
+ .vegetables__subscribeTitle{
+     max-width: 219px;
+     font-family: var(--font-roboto);
+     font-size: 40px;
+     font-weight: 400;
+     color: var(--color-blue);
+     
+ }
