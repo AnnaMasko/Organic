@@ -1,0 +1,30 @@
+.offers{
+    display: flex;
+    outline: 1px solid red;
+    justify-content: center;
+    background-color: var(--color-blue);
+}
+.offers__content{
+    width: 1440px;
+    height: 1060px;
+    display: flex;
+    align-items: center;
+    outline: 1px solid green;
+    flex-direction: column;
+    margin-top: 140px;
+}
+.offers__contentTextButton{
+    display: flex;
+    width: 1380px;
+    height: 170px;
+    justify-content: space-between;
+}
+.offers__contentText{
+    width: 682px;
+}
+.text-color{
+    color: white;
+}
+.butoon__size-width{
+    width: 267px;
+}

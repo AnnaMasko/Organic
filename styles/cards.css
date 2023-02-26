@@ -37,6 +37,7 @@
     flex-direction: column;
     outline: 1px solid yellow;
     background-color: #F9F8F8;
+    border-radius: 30px;
 }
 
 .card__content{
