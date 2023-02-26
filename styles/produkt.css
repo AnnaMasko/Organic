@@ -1,0 +1,49 @@
+.produkt{
+    display: flex;
+    justify-content: center;
+    height: 860px;
+    background-color: #EFF6F1;
+}
+
+.produkt__content{
+    width: 1440px;
+    height: 860px;
+    display: flex;
+    align-items: center;
+}
+.product__cards{
+    width: 1440px;
+    height: 580px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.produkt_card{
+    width: 460px;
+    height: 580px;
+    background-image: url(../images/juice.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.produkt_cardTtile{
+    width: 281px;
+    height: 95px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.produkt_cardText{
+    color: var(--color-blue);
+    font-size: 25px;
+    font-weight: 700;
+}
+.produkt_card-img{
+    background-image: url(../images/food.png);
+}
+.produkt_card-imgnuts{
+    background-image: url(../images/cookies.png);
+}
