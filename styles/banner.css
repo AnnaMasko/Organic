@@ -7,15 +7,12 @@
     width: 1380px;
     height: 378px;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;  
 }
 .fruits{
     width: 665px;
     background-image: url(../images/fruits.png);
     background-repeat: no-repeat;
-    outline: 1px solid green;
-
 }
 .fruits__subscribe{
    margin-top: 105px;
@@ -41,7 +38,6 @@
     width: 665px;
     background-image: url(../images/vegetables.png);
     background-repeat: no-repeat;
-    outline: 1px solid yellow;
 }
 
 .vegetables__subscribe{
@@ -63,3 +59,122 @@
      color: var(--color-blue);
      
  }
+
+ @media (max-width:1280px)
+{
+    .banner{   
+        margin-top: 120px; 
+        width: 1226px;
+    }
+    .fruits{
+        width: 588px;
+        background-size: 588px;
+    }
+    .vegetables{
+        width: 588px;
+        background-size: 588px;
+    }
+}
+@media (max-width:1152px)
+{
+    .banner{   
+        margin-top: 108px; 
+        width: 1100px;
+    }
+    .fruits{
+        width: 525px;
+        background-size: 525px;
+    }
+    .vegetables{
+        width: 525px;
+        background-size: 525px;
+    }
+}
+@media (max-width:1024px)
+{
+    .banner{   
+        margin-top: 96px; 
+        width: 980px;
+    }
+    .fruits{
+        width: 465px;
+        background-size: 465px;
+    }
+    .vegetables{
+        width: 465px;
+        background-size: 465px;
+    }
+}
+@media (max-width:820px)
+{
+    .banner{   
+        margin-top: 76px; 
+        width: 784px;
+    }
+    .fruits{
+        width: 367px;
+        background-size: 367px;
+    }
+    .fruits__subscribeText{
+        font-size: 20px;
+    }
+    .fruits__subscribeTitle{
+        max-width: 124px;
+        font-size: 22px;        
+    }
+    .vegetables{
+        width: 367px;
+        background-size: 367px;
+    }
+    .vegetables__subscribeText{
+        font-size: 20px;
+    }
+    .vegetables__subscribeTitle{
+        max-width: 124px;
+        font-size: 22px;        
+    }
+}
+
+@media (max-width:768px)
+{
+    .banner{   
+        margin-top: 70px; 
+        width: 734px;
+    }
+    .fruits{
+        width: 342px;
+        background-size: 342px;
+    }
+    .vegetables{
+        width: 342px;
+        background-size: 342px;
+    }
+}
+
+@media (max-width:540px)
+{
+    .banner{   
+        margin-top: 0;
+        width: 516px;
+        flex-direction: column;
+        align-items: center;
+        height: 400px;
+        margin-bottom: 10px;
+    }
+    .fruits{
+        height: 185px;
+    }
+    .fruits__subscribe{
+        margin-top: 55px;
+        margin-left: 25px; 
+     }
+     .vegetables{
+        height: 185px;
+    }
+    
+     .vegetables__subscribe{
+        margin-top: 55px;
+        margin-left: 25px; 
+     }
+
+}
