@@ -19,3 +19,12 @@
   {
     background-position: 50% -25px;
   }
+
+  @media (max-width:1024px){
+    .rating_block {
+      width: 88px;
+    }
+    .label_rating {
+      width: 17px;
+    }
+}

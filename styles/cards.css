@@ -1,13 +1,11 @@
 .section__cards{
     display: flex;
-    outline: 1px solid red;
     justify-content: center;
 }
 
 .cards__content{   
     width: 1440px;
     height: 1381px;
-    outline: 1px solid blue;
     display: flex;   
     flex-direction: column;
 }
@@ -24,7 +22,6 @@
 .cards{
     width: 1400px;
     height: 1219px;
-    outline: 1px solid green;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -35,7 +32,6 @@
     height: 590px;
     display: flex;
     flex-direction: column;
-    outline: 1px solid yellow;
     background-color: #F9F8F8;
     border-radius: 30px;
 }
@@ -97,4 +93,80 @@
 }
 .card__priceNew::before{
     content: '\0024';
+}
+
+@media (max-width:1280px){
+    .cards__content{   
+        width: 1280px;
+    }
+    .cards{
+        width: 1250px;
+    }
+    .card{
+        width: 395px;
+        height: 590px;
+    }
+    .card__image{
+        width: 360px;
+    }
+}
+
+@media (max-width:1024px){
+    .cards__content{   
+        width: 1024px;
+    }
+    .cards{
+        width: 1000px;
+        height: 860px;
+    }
+    .card{
+        width: 316px;
+        height: 420px;
+    }
+    .card__image{
+        width: 280px;
+        height: 270px;
+    }
+    .card__price{
+        font-size: 14px;
+    }
+    .card__priceNew{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:920px){
+    .cards__content{   
+        width: 920px;
+        height: 1450px;
+        align-items: center;
+    }
+    .cards{
+        width: 700px;
+        height: 860px;
+        justify-content: center;
+        
+    }
+    .card{
+        height: 440px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:540px){
+    .cards__content{   
+        width: 540px;
+        height: 2800px;
+        align-items: center;
+    }
+    .cards{
+        width: 400px;
+        height: 860px;
+      
+        
+    }
+    .card{
+        height: 440px;
+        margin-bottom: 10px;
+    }
 }
