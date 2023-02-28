@@ -47,8 +47,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(../images/back_image.png);
-    
+    background-image: url(../images/back_image.png); 
 }
 .header__contentContainer{
     height: 443px;
@@ -86,4 +85,239 @@
   font-family: 'Roboto', sans-serif;
   font-size: 19px;
   font-weight: 400;
+}
+
+@media (max-width:1280px)
+{
+    .header{
+        max-width: 1280px;
+        height: 1025px;
+    }
+    .navbar{
+        width: 1220px;
+        height: 72px;
+    }
+    .header__content{
+        width: 1280px;
+        height: 810px;
+        background-size: 1280px;
+    }
+}
+
+@media (max-width:1152px)
+{
+    .header{
+        max-width: 1152px;
+        height: 920px;
+    }
+    .navbar{
+        width: 1098px;
+        height: 72px;
+    }
+    .header__content{
+        width: 1152px;
+        height: 730px;
+        background-size: 1152px;
+    }
+}
+
+@media (max-width:1024px)
+{
+    .header{
+        max-width: 1024px;
+        height: 920px;
+    }
+    .navbar{
+        width: 976px;
+        height: 72px;
+    }
+    .navbar__item{        
+        font-size: 14px;
+    }
+    .header__content{
+        width: 1024px;
+        height: 648px;
+        background-size: 1024px;
+    }
+    .basket__logo{
+        width: 40px;
+        height: 40px;
+    }
+    .header__contentText{
+        font-size: 25px;
+    }
+    .header__contentTitle{
+        width: 355px;
+        font-size: 50px;
+    }
+    .button__size
+    {
+        width: 155px;
+        height: 58px;
+        border-radius: 5px;
+    }
+    .button{
+      font-size: 13px;
+    }
+}
+
+@media (max-width:920px)
+{
+    .header{
+        max-width: 920px;
+        height: 826px;
+    }
+    .navbar{
+        width: 876px;
+        height: 72px;
+    }
+    .header__content{
+        width: 920px;
+        height: 528px;
+        background-size: 920px;
+    }
+}
+
+@media (max-width:820px)
+{
+    .header{
+        max-width: 820px;
+        height: 736px;
+    }
+    .navbar{
+        width: 780px;
+        height: 64px;
+    }
+    .header__content{
+        width: 820px;
+        height: 470px;
+        background-size: 820px;
+    }
+    .navbar__item{
+        display: none;
+    }
+}
+@media (max-width:768px)
+{
+    .header{
+        max-width: 768px;
+        height: 689px;
+    }
+    .navbar{
+        width: 730px;
+        height: 60px;
+    }
+    .header__content{
+        width: 768px;
+        height: 440px;
+        background-size: 768px;
+    }
+    .navbar__item{
+        display: none;
+    }
+}
+@media (max-width:540px)
+{
+    .header{
+        max-width: 540px;
+        height: 485px;
+    }
+    .navbar{
+        width: 513px;
+        height: 42px;
+    }
+    .header__content{
+        width: 540px;
+        height: 310px;
+        background-size: 540px;
+    }
+    .header__contentContainer{
+        height: 170px;
+    }
+    .basket__logo{
+        width: 20px;
+        height: 20px;
+    }
+    .header__contentText{
+        font-size: 13px;
+    }
+    .header__contentTitle{
+        width: 177px;
+        font-size: 25px;
+    }
+    .button__size
+    {
+        width: 77px;
+        height: 29px;
+    }
+    .button{
+      font-size: 7px;
+    }
+    .logoImg{
+        width: 100px;
+    }
+    .basket__text{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:425px)
+{
+    .header{
+        max-width: 425px;
+        height: 382px;
+    }
+    .navbar{
+        width: 403px;
+        height: 33px;
+    }
+    .header__content{
+        width: 425px;
+        height: 244px;
+        background-size: 425px;
+    }
+    .header__contentContainer{
+        height: 133px;
+    }
+    .header__contentTitle{
+        width: 177px;
+        font-size: 19px;
+    }
+    .button__size
+    {
+        width: 100px;
+        height: 29px;
+    }
+    .button{
+      font-size: 7px;
+    }
+}
+
+@media (max-width:375px)
+{
+    .header{
+        max-width: 375px;
+        height: 337px;
+    }
+    .navbar{
+        width: 355px;
+        height: 25px;
+    }
+    .header__content{
+        width: 375px;
+        height: 215px;
+        background-size: 375px;
+    }
+    .header__contentContainer{
+        height: 117px;
+    }
+    .header__contentTitle{
+        width: 155px;
+        font-size: 16px;
+    }
+    .button__size
+    {
+        width: 150px;
+        height: 29px;
+    }
 }
