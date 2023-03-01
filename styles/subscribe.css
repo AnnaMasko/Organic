@@ -35,3 +35,89 @@
     border-radius: 16px;
     border: none;
 }
+
+@media (max-width:1280px){
+    .subscribe__content{
+        width: 1226px;
+    }
+}
+@media (max-width:1024px){
+    .subscribe__content{
+        width: 980px;
+    }
+    .subscribe__contentText{
+        width: 880px;    
+    }
+    .content__title{
+        width: 230px;
+        font-size: 36px;
+    }
+    .content__form{
+        width: 480px;      
+    }
+    .content__formInput{
+        width: 248px;
+        height: 58px;
+    }
+}
+@media (max-width:820px){
+    .subscribe__content{
+        width: 784px;
+    }
+    .subscribe__contentText{
+        width: 704px;    
+    }
+    .content__title{
+        width: 184px;
+        font-size: 26px;
+    }
+}
+@media (max-width:768px){
+    .subscribe__content{
+        width: 734px;
+    }
+    .subscribe__contentText
+    {
+        flex-direction: column;
+        height: 200px;
+    }
+
+    .subscribe__contentText{
+        width: 659px;    
+    }
+    .content__form{
+        flex-direction: column;
+    }
+    .content__title{
+        width: 400px;
+        font-size: 26px;
+    }
+    .content__formInput{
+        width: 400px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:540px){
+    .subscribe__content{
+        width: 540px;
+    }
+    .subscribe__contentText
+    {
+        height: 150px;
+    }
+    .subscribe__contentText{
+        width: 300px;    
+    }
+    .content__title{
+        width: 300px;
+        font-size: 26px;
+    }
+    .content__formInput{
+        width:300px;
+        margin-bottom: 10px;
+    }
+    .button-btn{
+        width: 300px;
+    }
+}
