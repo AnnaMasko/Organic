@@ -28,8 +28,7 @@
 }
 .footer__contentCollumnFirst{
     width: 269px;
-    height: 369px;    
-    
+    height: 369px;     
 }
 .footer__contentText{
     height: 292px;  
@@ -49,7 +48,6 @@
     display: flex;
     flex-direction: column;    
     align-items:center;
-
 }
 .logo-margin{
     margin-bottom: 40px;
@@ -65,9 +63,15 @@
     display: flex;
     justify-content: space-evenly;
 }
+.footer__iconsSize{
+    width: 20px;
+    height: 20px;
+}
 .footer__icon{
     width: 60px;
     height: 60px;
+    display: flex;
+    justify-content: center;
 }
 .footer__contentCollumnThird{
     width: 335px;
@@ -93,4 +97,106 @@
     font-family: var(--font-worksans);
     color: var(--color-gray);
     font-size: 18px;
+}
+
+
+@media (max-width:1280px){
+    .footer__content{
+        width: 1225px;        
+        margin-top: 115px;
+    }
+    .footer__text{
+        font-size: 16px;
+    }
+    .footer__contentCollumnFirst{
+        width: 239px;
+    }
+    .text-sizes{
+        
+        width: 190px;
+       
+    }
+    .footer__contentCollumnSecond{
+        width: 595px;
+    }
+    .footer__text-align{
+        width: 475px;
+    }
+    .footer__contentCollumnThird{
+        width: 297px;
+        
+    }
+}
+
+@media (max-width:1024px){
+    .footer__content{
+        width: 980px;        
+        margin-top: 90px;
+        
+    }
+    .footer__contentCollumnFirst{
+        width: 191px;
+    }
+    .footer__contentCollumnSecond{
+        width: 475px;
+    }
+    .footer__contentSecondText{
+        width: 470px;
+    }
+    .footer__icons{
+        width: 470px;
+    }
+    .footer__contentCollumnThird{
+        width: 237px;
+        
+    }
+
+}
+
+@media (max-width:920px){
+    .footer__content{
+        width: 625px;   
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 1200px;     
+    }
+
+    .footer__contentCollumnSecond{
+        width: 475px;
+        border: none;
+    }
+
+
+}
+
+@media (max-width:540px){
+    .footer__content{
+        width: 475px; 
+        margin-top: 20px; 
+        height: 900px;    
+    }
+
+    .footer__contentCollumnFirst{
+        width: 200px;height: 300px;
+    }
+    .footer__contentCollumnSecond{
+        width: 475px;
+        height: 200px;
+    }
+    .footer__contentSecondText{
+        width: 475px;
+        align-items: center;
+    }
+    .footer__icons{
+        width: 370px;
+    }
+    .footer__contentCollumnThird{
+        width: 170px;  height: 200px;
+    }
+    .logo-visibility{
+        display: none;
+    }
+
+
+
 }
